@@ -15,9 +15,12 @@ public class Calendar {
     }
 
     public static void printCalendarForMonth(String monthName){
+
         System.out.println(monthName);
-        System.out.println("Mo Tu We Th Fr Sa Su");
-        System.out.println("1   2   3   4   5   6   7");
+        System.out.println("Mo\tTu\tWe\tTh\tFr\tSa\tSu");
+        System.out.println("1\t2\t3\t4\t5\t6\t7");
+
         System.out.println();
     }
+
 }
